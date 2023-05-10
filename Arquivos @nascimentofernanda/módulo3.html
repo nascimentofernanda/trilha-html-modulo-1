@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha HTML Developer</title>
+</head>
+
+<h2>Objetivo Geral</h2>
+        <p>Aprender a como criar um formulário.</p>
+
+<body>
+   <h2>O que são formulários?</h2>
+   <p>Formulários são recursos com campos preenchíveis utilizados para coleta de dados.</p>
+   <p>No HTML os formulários são criados utilizando a tag pai <code> < form > </code> em conjunto com suas tag filhos 
+    escolhidas de acordo com a necessidade do site.</p><br>
+    
+    <h3>Exemplo de formulário sem formatação CSS</h3>
+    <p><b>*Na IDE digite sem os espaços antes dos sinais de abertura e fechamento < e >.</e></b></p>
+    <code><pre>
+        < form > 
+        < label >Nome: < /label >< input type="text" name="nome" />< br >
+        < label >Idade: < /label >< input type="number" name="age" />< br >
+        < label >Senha < /label >< input type="password" name="password" />
+        < /form >
+    </pre></code>
+
+    <h3>Resultado:</h3>
+    <form> 
+    <label>Nome: </label><input type="text" name="nome"/><br>
+    <label>Idade: </label><input type="number" name="age"/><br>
+    <label>Senha </label><input type="password" name="password"/>
+    </form>
+
+    <h3>Exemplo de formulário formatado</h3>
+    <img src="Exemplo de formulário.jpg" width="300" height="400">
+
+    <h3>Algumas tags e labels importantes para o formulário:</h3>
+    <p><b>Tag form:</b> "Marca" o início e o final do formulário, todos os campos e atributos do formulário devem estar dentro dessa tag</p>
+    <p><b>Tag input:</b> Acrescenta os campos onde o usuário irá digitar os dados. Alguns labels importantes da tag <code>input</code> são:<p>
+        <ul>
+            <li><b>type:</b> Define o tipo de dado que será digitado no campo (texto, numérico, senha, etc...)</li>
+            <li><b>name:</b> Define o nome do campo, auxiliando a identificação para formatação e utilização de Javascript no futuro.</li>   
+        </ul>
+    <p><b>Tag button:</b> Cria um botão para a submissão do formulário.</p>
+    </p>
+    <p>Para acessar todas as Tags e labels disponíveis visite o site: <a href="https://www.w3schools.com/tags/tag_form.asp">W3schools</a></p>
+    <a href="#"><small>Voltar para o topo</small></a>
+</body>
+</html>
